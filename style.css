@@ -1,71 +1,66 @@
-.login-box{
-    width: 400px;
-    height: 300px;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color: rgb(255, 252, 252);
-    border-radius: 10px;
-
-}
-
-.signup-box{
-    width: 400px;
-    height: 650px;
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    border-color: black;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
 body{
-    justify-content: center;
-    top: 50%;
-    bottom: 50%;
-    margin-top: 50px;
+background-color: rgb(224, 243, 245);
+}
+
+.Cards{
     display: flex;
-    background-color:rgb(231, 246, 241) ;
+    justify-content: center;
+    align-items: center;
 }
-label{
-    font-weight: bold;
-    font-size: large;
+.card{
+    background-color: rgb(255, 251, 251);
+    margin: 22px;
+    display:flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    transition: transform 0.3s ease;
+    margin-left: 50px;
 }
-input{
-    width: 350px;
-    height: 35px;
 
-}
-
-select{
-    width: 350px;
-    height: 25px;
-}
-
-button{
-    width: 350px;
-    height: 30px;
-    background-color: rgba(236, 26, 26, 0.895);
+.card button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: skyblue;
     cursor: pointer;
+
 
 }
 button:hover{
-    background-color:skyblue;
-}
-pre{
-    font-size: large;
+    background-color: azure;
 }
 
-a{
-    text-decoration:none ;
-
+.card:hover{
+     background-color: rgb(235, 242, 244) ;
+     transform: scale(1.1);
 }
-h2{
-    font-style:normal;
-    color: rgb(226, 104, 43);
+
+.tables{
+    max-width:100% ;
+    margin: 10px;
+}
+
+table{
+    width: 80%;
+    margin-right: 10px;
+    margin-left: 150px;
+   
+}
+
+table th{
     text-align: center;
-    padding-top: 10px;
+     padding: 10px;
+     background-color:skyblue;
+
+}
+table td{
+    text-align: center;
+     padding: 10px;
+
+}
+.h1{
+    padding-top: 0px;
 }
